@@ -152,3 +152,66 @@ header nav a:hover {
   background-color: #fefefe;
   padding: 13px 15px;
 }
+
+.team {
+  font-family: "OpenSansRegular";
+  color: #4e525d;
+}
+
+.team .top_text {
+  text-align: center;
+  font-size: 42px;
+  padding-top: 100px;
+}
+
+.team .team_members {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.team .team_members .member {
+  width: 25%;
+}
+
+.team .team_members .member .icon {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #eeeef0;
+  display: inline-block;
+  position: relative;
+}
+
+.team .team_members .member .icon img {
+  display: none;
+}
+
+.team .team_members .member .icon:hover img {
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  top: 82px;
+  left: 78px;
+  display: inline-block;
+}
+
+.team .team_members .member .member_name {
+  font-size: 22px;
+  padding-top: 65px;
+}
+
+.team .team_members .member .member_profession {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.team .team_members .member .discription {
+  font-size: 14px;
+  padding-top: 30px;
+  width: 260px;
+}
