@@ -31,6 +31,7 @@ body
 	height: 100%
 	position: relative
 	line-height: 1.4
+	margin: 0
 .wrapper
 	max-width: 1170px
 	margin: 0 auto
@@ -39,8 +40,8 @@ header
 		display: inline-block
 		font-family: "Lobster1.4"
 		font-size: 43px
-		margin-top: 25px
-		margin-bottom: 30px
+		margin-top: 20px
+		margin-bottom: 23px
 		a
 			text-decoration: none
 			color: $logo
@@ -61,7 +62,73 @@ header
 				background-color: #f8f9fb
 				border-bottom: solid 3px $blue
 				color: $blue
+.car
+	background-image: url("../img/header_fon.jpg")
+	min-height: 566px
+	background-position: top center
+	background-size: cover
+	background-repeat: no-repeat
+#owl-carousel
+	.item
+		position: relative
+		text-align: center
+		padding-top: 130px
+		.top_text
+			font-size: 63px
+			font-family: "OpenSansSemiBold"
+			color: #fff
+		.text
+			padding-top: 20px
+			width: 400px
+			margin: 0 auto
+			font-size: 23px
+			font-family: "OpenSansRegular"
+			color: #fff
+		button
+			background: none
+			color: #fff
+			font-family: "OpenSansSemiBold"
+			font-size: 26px
+			margin-top: 50px
+			border: 3px solid #fff
+			border-radius: 5px
+			padding: 20px 35px 20px 40px 
+			cursor: pointer
+	.owl-prev:after
+		content: "\f104"
+		font: normal normal normal 14px/1 FontAwesome
+		width: 50px
+		height: 50px
+		left: 55px
+		font-size: 50px
+		text-align: center
+		color: $blue
+		position: absolute
+		top: 274px
+		margin-left: -25px
+		border-radius: 50%
+		background-color: #fefefe
+		padding: 13px 15px
+	.owl-next:after
+		content: "\f105"
+		width: 50px
+		height: 50px
+		font: normal normal normal 14px/1 FontAwesome
+		right: 55px
+		font-size: 50px
+		text-align: center
+		color: $blue
+		position: absolute
+		top: 274px
+		margin-right: -25px
+		border-radius: 50%
+		background-color: #fefefe
+		padding: 13px 15px
 
+
+
+
+		
 
 
 
