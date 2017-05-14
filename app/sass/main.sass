@@ -64,7 +64,7 @@ header
 	height: 100px
 	width: 100%
 	margin: 0 auto
-	background-image: url("../img/header_fixed_fon.jpg")
+	background-color: #fff
 	z-index: 999
 	.logo
 		display: inline-block
@@ -75,6 +75,11 @@ header
 		a
 			text-decoration: none
 			color: $logo
+	.btn_menu
+		display: none
+		img
+			width: 30px
+			height: 30px
 	nav
 		float: right
 		margin-top: 40px
@@ -92,6 +97,9 @@ header
 				background-color: #f8f9fb
 				border-bottom: solid 3px $blue
 				color: $blue
+.header_fixed
+	height: 100px
+	width: 100%
 .car
 	background-image: url("../img/header_fon.jpg")
 	min-height: 566px
@@ -99,7 +107,7 @@ header
 	background-size: cover
 	background-repeat: no-repeat
 #owl-carousel
-	z-index: 0
+	
 	.item
 		position: relative
 		text-align: center
@@ -184,8 +192,8 @@ header
 						width: 41px
 						height: 41px
 						position: absolute
-						top: 82px
-						left: 78px
+						top: 40%
+						left: 40%
 						display: inline-block
 			.member_name
 				font-size: 22px

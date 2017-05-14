@@ -1,0 +1,225 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  footer .info form{
+    text-align: left;
+  }
+  footer .info form input[name="email"]{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  footer .info form textarea{
+    width: 400px;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .team .team_members .member .icon{
+    width: 100px;
+    height: 100px;
+  }
+  .team .team_members .member .icon:hover img{
+    width: 20px;
+    height: 20px;
+  }
+  .team .team_members .member .member_name{
+    font-size: 15px;
+  }
+  .team .team_members .member .discription{
+    width: 130px;
+    margin: 0 auto;
+  }
+  footer .info form input[type="submit"]{
+    padding: 7px 30px 10px 25px;
+  }
+}
+
+@media only screen and (max-width: 902px) {
+  footer .info .contact_info .text{
+    width: 300px;
+  }
+  footer .info form textarea{
+    width: 320px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+header .btn_menu{
+  display: block;
+  float: right;
+  margin-top: 35px;
+  margin-right: 50px;
+  border: none;
+  outline: none;
+}
+nav{
+  display: none;
+}
+header nav{
+  margin-top: -25px;
+}
+header nav a{
+  padding-top: 100px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+}
+#owl-carousel .item .top_text{
+  font-size: 35px;
+}
+#owl-carousel .item .text{
+  font-size: 16px;
+}
+#owl-carousel .item button{
+  padding: 10px 15px 10px 20px;
+}
+#owl-carousel .owl-next:after{
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
+  top: 370px;
+  right: 130px;
+}
+#owl-carousel .owl-prev:after{
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
+  top: 370px;
+  left: 130px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 594px) {
+ header nav a{
+  padding-top: 100px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 15px;
+  padding-bottom: 0;
+ }
+ .team .team_members{
+  display: inline-block;
+  width: 585px;
+  padding-top: 30px;
+ }
+ .team .team_members .member{
+  width: 100%;
+ }
+ .team .team_members .member .member_name{
+  padding-top: 15px;
+ }
+ .team .team_members .member .discription{
+  width: 260px;
+ }
+ footer .info{
+  display: inline-block;
+ }
+ footer .info form{
+  margin-top: 30px;
+ }
+}
+
+@media only screen and (max-width: 570px) {
+ header nav a{
+  padding-top: 0;
+  
+ }
+ #owl-carousel .owl-next:after{
+  top: 370px;
+  right: 130px;
+}
+#owl-carousel .owl-prev:after{
+  top: 370px;
+  left: 130px;
+}
+.package_versions .packages_types{
+  display: inline-block;
+}
+.package_versions .packages_types .package .first_p{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.package_versions .packages_types .package .second_p{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.package_versions .packages_types .package .third_p{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.package_versions .packages_types .package{
+  padding-bottom: 15px;
+}
+}
+@media only screen and (max-width: 485px) {
+  .team .team_members{
+  width: 450px;
+ }
+}
+
+@media only screen and (max-width: 420px) {
+ #owl-carousel .item .top_text{
+  font-size: 22px;
+}
+#owl-carousel .item .text{
+  font-size: 12px;
+  width: 300px;
+}
+#owl-carousel .item button{
+  padding: 5px 8px 5px 12px;
+}
+#owl-carousel .owl-next:after{
+  top: 370px;
+  right: 110px;
+}
+#owl-carousel .owl-prev:after{
+  top: 370px;
+  left: 110px;
+}
+.team .team_members{
+  width: 350px;
+ }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 360px) {
+  header nav a{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .team .team_members{
+  width: 310px;
+ }
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+}

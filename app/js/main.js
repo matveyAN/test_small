@@ -31,7 +31,9 @@ $(document).ready(function(){
         $('.third_p').css('background-color', '#485460');
     });
 
-
+    $('.btn_menu').click(function(){
+        $('nav').slideToggle();
+    });
 });
 
 	

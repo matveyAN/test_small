@@ -66,7 +66,7 @@ header {
   height: 100px;
   width: 100%;
   margin: 0 auto;
-  background-image: url("../img/header_fixed_fon.jpg");
+  background-color: #fff;
   z-index: 999;
 }
 
@@ -81,6 +81,15 @@ header .logo {
 header .logo a {
   text-decoration: none;
   color: #44c0c2;
+}
+
+header .btn_menu {
+  display: none;
+}
+
+header .btn_menu img {
+  width: 30px;
+  height: 30px;
 }
 
 header nav {
@@ -106,16 +115,17 @@ header nav a:hover {
   color: #49cbcd;
 }
 
+.header_fixed {
+  height: 100px;
+  width: 100%;
+}
+
 .car {
   background-image: url("../img/header_fon.jpg");
   min-height: 566px;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-#owl-carousel {
-  z-index: 0;
 }
 
 #owl-carousel .item {
@@ -230,8 +240,8 @@ header nav a:hover {
   width: 41px;
   height: 41px;
   position: absolute;
-  top: 82px;
-  left: 78px;
+  top: 40%;
+  left: 40%;
   display: inline-block;
 }
 
