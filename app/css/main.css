@@ -293,3 +293,84 @@ header nav a:hover {
   -webkit-border-radius: 3px;
           border-radius: 3px;
 }
+
+footer {
+  background-image: url("../img/footer_fon.jpg");
+  min-height: 686px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+footer .top_text {
+  font-family: "OpenSansRegular";
+  font-size: 42px;
+  color: #fff;
+  padding-top: 100px;
+}
+
+footer .info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .info .contact_info {
+  width: 50%;
+  text-align: left;
+}
+
+footer .info .contact_info .top_text {
+  font-family: "OpenSansRegular";
+  font-size: 24px;
+  color: #fff;
+}
+
+footer .info .contact_info .text {
+  font-family: "OpenSansRegular";
+  font-size: 14px;
+  color: #808080;
+  width: 450px;
+}
+
+footer .info .contact_info ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .info .contact_info ul li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+footer .info .contact_info .author {
+  font-family: "MyriadProRegular";
+  color: #bface2;
+  font-size: 14px;
+}
+
+footer .info .contact_info .phone_number {
+  font-family: "OpenSansRegular";
+  font-size: 14px;
+  color: #bface2;
+}
+
+footer .info .contact_info .email {
+  font-family: "MyriadProRegular";
+  color: #bface2;
+  font-size: 14px;
+}
+
+footer .info form {
+  width: 50%;
+}
+
+footer .info form input[name="name"], footer .info form [name="email"] {
+  width: 270px;
+  height: 44px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border: none;
+}
