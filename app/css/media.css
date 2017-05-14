@@ -139,6 +139,7 @@ header nav a{
 }
 .package_versions .packages_types{
   display: inline-block;
+  width: 300px;
 }
 .package_versions .packages_types .package .first_p{
   padding-top: 15px;
@@ -160,6 +161,25 @@ header nav a{
   .team .team_members{
   width: 450px;
  }
+
+ .package_versions .packages_types .package .first_p{
+  width: 300px;
+}
+.package_versions .packages_types .package .second_p{
+  width: 300px;
+}
+.package_versions .packages_types .package .third_p{
+  width: 300px;
+}
+.package_versions .packages_types .package .packages_cost{
+  width: 300px;
+}
+.package_versions .packages_types .package ul{
+  width: 300px;
+}
+.package_versions .packages_types .package .button_block{
+  width: 300px;
+}
 }
 
 @media only screen and (max-width: 420px) {
