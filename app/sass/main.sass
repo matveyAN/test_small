@@ -1,18 +1,43 @@
+$logo: #44c0c2;
+$blue: #49cbcd;
+$sans: "OpenSansRegular";
+$sans_b: "OpenSansSemiBold";
+
 *::-webkit-input-placeholder 
-	color: #666
+	color: #c1c1c1
 	opacity: 1
+	font-family: $sans
+	font-size: 16px
 
 *:-moz-placeholder 
-	color: #666
+	color: #c1c1c1
 	opacity: 1
+	font-family: $sans
+	font-size: 16px
 
 *::-moz-placeholder 
-	color: #666
+	color: #c1c1c1
 	opacity: 1
+	font-family: $sans
+	font-size: 16px
 
 *:-ms-input-placeholder 
-	color: #666
+	color: #c1c1c1
 	opacity: 1
+	font-family: $sans
+	font-size: 16px
+
+*::-webkit-textarea-placeholder 
+	color: #c1c1c1
+	opacity: 1
+	font-family: $sans
+	font-size: 16px
+
+*:-ms-textarea-placeholder 
+	color: #c1c1c1
+	opacity: 1
+	font-family: $sans
+	font-size: 16px
 
 
 body input:focus:required:invalid
@@ -23,10 +48,7 @@ body input:required:valid
 body textarea:required:valid 
 	border: 3px solid green
 
-$logo: #44c0c2;
-$blue: #49cbcd;
-$sans: "OpenSansRegular";
-$sans_b: "OpenSansSemiBold";
+
 
 body
 	width: 100%
@@ -38,6 +60,12 @@ body
 	max-width: 1170px
 	margin: 0 auto
 header
+	position: fixed
+	height: 100px
+	width: 100%
+	margin: 0 auto
+	background-image: url("../img/header_fixed_fon.jpg")
+	z-index: 999
 	.logo
 		display: inline-block
 		font-family: "Lobster1.4"
@@ -59,7 +87,7 @@ header
 			padding-top: 40px
 			padding-right: 24px
 			padding-left: 20px
-			padding-bottom: 40px
+			padding-bottom: 38px
 			&:hover
 				background-color: #f8f9fb
 				border-bottom: solid 3px $blue
@@ -71,6 +99,7 @@ header
 	background-size: cover
 	background-repeat: no-repeat
 #owl-carousel
+	z-index: 0
 	.item
 		position: relative
 		text-align: center
@@ -236,15 +265,17 @@ footer
 		font-size: 42px
 		color: #fff
 		padding-top: 100px
+		padding-bottom: 110px
 	.info
 		display: flex
 		.contact_info
 			width: 50%
 			text-align: left
-			.top_text
+			.top_text_info
 				font-family: $sans
 				font-size: 24px
 				color: #fff
+				padding-bottom: 10px
 			.text
 				font-family: $sans
 				font-size: 14px
@@ -253,6 +284,8 @@ footer
 			ul
 				list-style: none
 				padding: 0
+				margin-top: 35px
+				margin-bottom: 20px
 				li
 					display: inline-block
 					margin-right: 12px
@@ -271,12 +304,39 @@ footer
 
 		form
 			width: 50%
-			input[name="name"], [name="email"]
-				width: 270px
+			text-align: right
+			input[name="name"]
+				width: 250px
 				height: 44px
 				border-radius: 2px
 				border: none
-
+				padding-left: 20px
+				
+			input[name="email"]
+				margin-left: 30px
+				width: 250px
+				height: 44px
+				border-radius: 2px
+				border: none
+				padding-left: 20px
+			textarea
+				width: 552px
+				height: 159px
+				border-radius: 2px
+				border: none	
+				padding-left: 20px
+				padding-top: 20px
+				margin-top: 30px
+			input[type="submit"]
+				padding: 15px 66px 20px 54px
+				background-color: $blue
+				border: none
+				border-radius: 3px
+				color: #fff
+				font-family: $sans
+				font-size: 22px
+				margin-top: 25px
+				cursor: pointer
 
 
 

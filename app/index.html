@@ -13,12 +13,12 @@
 		<div class="wrapper">
 			<div class="logo"><a href="#">Author</a></div>
 			<nav>
-				<a href="">Home</a>
-				<a href="">Service</a>
-				<a href="">Portfolio</a>
-				<a href="">Team</a>
-				<a href="">Blog</a>
-				<a href="">Contact</a>
+				<a href="#">Home</a>
+				<a href="#service">Service</a>
+				<a href="#owl-carousel">Portfolio</a>
+				<a href="#the_team">Team</a>
+				<a href="#">Blog</a>
+				<a href="#contact">Contact</a>
 			</nav>
 		</div>
 	</header>
@@ -45,7 +45,7 @@
 		
 	</section>
 
-	<section class="team">
+	<section class="team" id="the_team">
 		<div class="wrapper">
 			<div class="top_text">The Team</div>
 			<div class="team_members">
@@ -84,7 +84,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="package_versions">
+	<section class="package_versions" id="service">
 		<div class="wrapper">
 			<div class="packages_types">
 				<div class="package">
@@ -135,26 +135,26 @@
 			</div>
 		</div>
 	</section>
-	<footer>
+	<footer id="contact">
 		<div class="wrapper">
 			<div class="top_text">Contact Us</div>
 			<div class="info">
 				<div class="contact_info">
-					<div class="top_text">Get in touch with us</div>
+					<div class="top_text_info">Get in touch with us</div>
 					<div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </div>
 					<ul>
-						<li><a href="#" class="facebook"><img src="img/facebook.png"></a></li>
-						<li><a href="#" class="twitter"><img src="img/twitter.png"></a></li>
-						<li><a href="#" class="google"><img src="img/google.png"></a></li>
+						<li><a href="https://uk-ua.facebook.com/" class="facebook"><img src="img/facebook.png"></a></li>
+						<li><a href="https://twitter.com/" class="twitter"><img src="img/twitter.png"></a></li>
+						<li><a href="https://plus.google.com/" class="google"><img src="img/google.png"></a></li>
 					</ul>
 					<div class="author">Posted by Dospel & GanjaParker</div>
 					<div class="phone_number">+XX-XXXX - XXXX - XX</div>
 					<div class="email">info@mail.com</div>
 				</div>
-				<form>
-					<input type="text" name="name" placeholder="Name">
-					<input type="text" name="email" placeholder="Email">
-					<textarea type="text" placeholder="Message"></textarea>
+				<form action="" id="form">
+					<input type="text" pattern="[a-zA-Z0-9]+" name="name" placeholder="Name" required>
+					<input type="email" name="email" placeholder="Email" required>
+					<textarea type="text" pattern="[a-zA-Z0-9]+" placeholder="Message" required></textarea>
 					<input type="submit" value="Send">
 				</form>
 				
